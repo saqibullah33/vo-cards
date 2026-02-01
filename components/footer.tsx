@@ -8,17 +8,9 @@ const links = [
         href: 'https://vercel.com/',
     },
     {
-        title: 'v0',
-        href: 'https://v0.dev/',
-    },
-    {
-        title: 'Meetup SDK',
-        href: 'https://meetup-sdk.vercel.com/',
-    },
-    {
-        title: 'v0 IRL',
-        href: 'https://v0.app/irl',
-    },
+        title: 'Supabase Peshawar',
+        href: 'https://www.instagram.com/supabase_peshawar/'
+    }
 ]
 
 export default function FooterSection() {
