@@ -51,12 +51,12 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
   const hasUser = !!data?.username;
   
   const title = hasUser 
-    ? `${userName} | v0 IRL ${EVENT_CITY}`
-    : `Generate Your Lanyard | v0 IRL ${EVENT_CITY}`;
+    ? `${userName} | Dev Meetup ${EVENT_CITY}`
+    : `Generate Your Lanyard | Dev Meetup ${EVENT_CITY}`;
   
   const description = hasUser
-    ? `${userName} is attending v0 IRL ${EVENT_CITY} - ${EVENT_DATE}. Join us for Prompt to Production!`
-    : `Create and customize your personalized v0 IRL ${EVENT_CITY} event lanyard. Choose your color variant and download it as a high-resolution PNG.`;
+    ? `${userName} is attending Build Something Real In One Day - ${EVENT_CITY} - ${EVENT_DATE}. A dev workshop with v0, Clerk & Supabase!`
+    : `Create and customize your personalized Dev Meetup ${EVENT_CITY} event lanyard. Choose your color variant and download it as a high-resolution PNG.`;
 
   const pageUrl = encrypted 
     ? `${SITE_URL}/lanyard?u=${encrypted}`
@@ -78,7 +78,7 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
       title,
       description,
       url: pageUrl,
-      siteName: `v0 IRL ${EVENT_CITY}`,
+      siteName: `Dev Meetup ${EVENT_CITY}`,
       type: "website",
       locale: "en_US",
       images: [
@@ -86,7 +86,7 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
           url: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: `${userName} - v0 IRL ${EVENT_CITY}`,
+          alt: `${userName} - Dev Meetup ${EVENT_CITY}`,
         },
       ],
     },
