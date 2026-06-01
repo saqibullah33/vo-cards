@@ -55,8 +55,8 @@ export async function GET(request: Request) {
 
       // Event details - you can edit these
       const EVENT_CITY = "peshawar";
-      const EVENT_DATE = "5 feb 2026";
-      const TITLE = 'Prompt to Production'
+      const EVENT_DATE = "18 jun 2026";
+      const TITLE = 'Build Something Real'
 
     const { searchParams } = new URL(request.url);
     const encrypted = searchParams.get("u");

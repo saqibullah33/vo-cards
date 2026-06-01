@@ -11,8 +11,8 @@ const _geist = Geist({subsets: ["latin"]});
 const _geistMono = Geist_Mono({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    title: 'v0 IRL — Prompt to Production | Peshawar February 5th, 2026',
-    description: 'v0 is launching its biggest product update yet. Join us for v0 IRL events around the world. One week. Global hackathons. Real apps, real work.',
+    title: 'Build Something Real In One Day | Dev Meetup Peshawar | June 18th, 2026',
+    description: 'Join 70 developers for a hands-on workshop where you\'ll build, deploy, and ship a real project in a single day using Vercel v0, Clerk, and Supabase.',
     generator: 'v0.app',
     icons: {
         icon: [
