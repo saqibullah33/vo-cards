@@ -98,8 +98,8 @@ export default function LanyardWithControls({
 
   // Share message templates
   const shareMessage = appliedName
-    ? `I'll be at @v0 Prompt to Production Peshawar, organized by Supabase Peshawar in collaboration with Computer Society UET Peshawar! Check out my personalized lanyard`
-    : `Check out v0 IRL Peshawar! Organized by Supabase Peshawar in collaboration with Computer Society UET Peshawar. Create your personalized event lanyard`;
+    ? `I'll be at Build Something Real In One Day - A dev workshop in Peshawar on June 18! Check out my personalized lanyard with v0, Clerk & Supabase.`
+    : `Join us for Build Something Real In One Day - A dev workshop in Peshawar on June 18! Create your personalized event lanyard.`;
 
   const handleShareX = useCallback(() => {
     const url = getShareableUrl();
@@ -187,7 +187,7 @@ export default function LanyardWithControls({
         variant={cardVariant}
         onTextureReady={handleTextureReady}
         city='Peshawar'
-        date='05.02.2026'
+        date='18.06.2026'
       />
       <Lanyard
         key={textureKey}
