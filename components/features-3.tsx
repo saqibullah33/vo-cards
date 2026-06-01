@@ -1,5 +1,5 @@
 import {Card, CardContent, CardHeader} from '@/components/ui/card'
-import {CircleDollarSignIcon, EarthIcon, UsersIcon} from 'lucide-react'
+import {CircleDollarSignIcon, GiftIcon, TrophyIcon, UtensilsIcon, WifiIcon, UsersIcon} from 'lucide-react'
 import React, {ReactNode} from 'react'
 import {TextEffect} from "@/components/motion-primitives/text-effect";
 import {transitionVariants} from "@/lib/utils";
@@ -16,7 +16,16 @@ export default function Features() {
                         speedSegment={0.3}
                         as="h2"
                         className="text-balance text-4xl font-semibold lg:text-5xl">
-                        Join us for Peshawar's first official v0 IRL event
+                        You bring the vibes. We handle the rest.
+                    </TextEffect>
+                    <TextEffect
+                        triggerOnView
+                        preset="fade-in-blur"
+                        speedSegment={0.3}
+                        delay={0.2}
+                        as="p"
+                        className="mt-4 text-muted-foreground">
+                        Show up ready to build. Everything else is taken care of — from the space you work in to the tools and prizes waiting at the finish line.
                     </TextEffect>
                 </div>
                 <AnimatedGroup
@@ -38,36 +47,75 @@ export default function Features() {
                         <div className="group shadow-zinc-950/5">
                             <CardHeader className="pb-3">
                                 <CardDecorator>
-                                    <CircleDollarSignIcon
+                                    <WifiIcon
                                         className="size-6"
                                         aria-hidden
                                     />
                                 </CardDecorator>
-
-                                <h3 className="mt-6 font-medium text-xl">Free v0 Credits</h3>
+                                <h3 className="mt-6 font-medium text-xl">Space & WiFi</h3>
                             </CardHeader>
-
                             <CardContent>
-                                <p className="text-sm text-muted-foreground">Credits to use towards building with
-                                    v0.</p>
+                                <p className="text-sm text-muted-foreground">A dedicated venue fully set up for a day of focused building — fast WiFi, power outlets, and room to think.</p>
                             </CardContent>
                         </div>
 
                         <div className="group shadow-zinc-950/5">
                             <CardHeader className="pb-3">
                                 <CardDecorator>
-                                    <EarthIcon
+                                    <UtensilsIcon
                                         className="size-6"
                                         aria-hidden
                                     />
                                 </CardDecorator>
-
-                                <h3 className="mt-6 font-medium text-xl">Global Gallery</h3>
+                                <h3 className="mt-6 font-medium text-xl">Food Covered</h3>
                             </CardHeader>
-
                             <CardContent>
-                                <p className="mt-3 text-sm text-muted-foreground">Every project showcased in a worldwide
-                                    exhibition</p>
+                                <p className="mt-3 text-sm text-muted-foreground">Breakfast, lunch, and snacks covered. Keep your energy up and your mind on the build.</p>
+                            </CardContent>
+                        </div>
+
+                        <div className="group shadow-zinc-950/5">
+                            <CardHeader className="pb-3">
+                                <CardDecorator>
+                                    <GiftIcon
+                                        className="size-6"
+                                        aria-hidden
+                                    />
+                                </CardDecorator>
+                                <h3 className="mt-6 font-medium text-xl">Swag</h3>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="mt-3 text-sm text-muted-foreground">Leave with more than a live URL. Swag from Vercel, Clerk, and Supabase for every attendee.</p>
+                            </CardContent>
+                        </div>
+
+                        <div className="group shadow-zinc-950/5">
+                            <CardHeader className="pb-3">
+                                <CardDecorator>
+                                    <CircleDollarSignIcon
+                                        className="size-6"
+                                        aria-hidden
+                                    />
+                                </CardDecorator>
+                                <h3 className="mt-6 font-medium text-xl">v0 Credits</h3>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="mt-3 text-sm text-muted-foreground">Every attendee gets Vercel v0 credits to use on the day and take home — keep building after the event.</p>
+                            </CardContent>
+                        </div>
+
+                        <div className="group shadow-zinc-950/5">
+                            <CardHeader className="pb-3">
+                                <CardDecorator>
+                                    <TrophyIcon
+                                        className="size-6"
+                                        aria-hidden
+                                    />
+                                </CardDecorator>
+                                <h3 className="mt-6 font-medium text-xl">Prizes</h3>
+                            </CardHeader>
+                            <CardContent>
+                                <p className="mt-3 text-sm text-muted-foreground">Best projects win. Prizes for most creative build, best UI, and the one that ships the fastest.</p>
                             </CardContent>
                         </div>
 
@@ -79,14 +127,10 @@ export default function Features() {
                                         aria-hidden
                                     />
                                 </CardDecorator>
-
-                                <h3 className="mt-6 font-medium text-xl">Community Voting</h3>
+                                <h3 className="mt-6 font-medium text-xl">Community</h3>
                             </CardHeader>
-
                             <CardContent>
-                                <p className="mt-3 text-sm text-muted-foreground">Builders vote for favorites, winners
-                                    get
-                                    prizes</p>
+                                <p className="mt-3 text-sm text-muted-foreground">Meet 70 fellow developers in Peshawar. Network, collaborate, and join a growing local tech community.</p>
                             </CardContent>
                         </div>
                     </Card>

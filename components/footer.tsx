@@ -8,9 +8,13 @@ const links = [
         href: 'https://vercel.com/',
     },
     {
-        title: 'Supabase Peshawar',
-        href: 'https://www.instagram.com/supabase_peshawar/'
-    }
+        title: 'Clerk',
+        href: 'https://clerk.com/',
+    },
+    {
+        title: 'Supabase',
+        href: 'https://supabase.com/',
+    },
 ]
 
 export default function FooterSection() {

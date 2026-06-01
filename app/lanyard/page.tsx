@@ -3,7 +3,7 @@ import LanyardPage from "@/components/lanyard-page";
 
 // Event details - you can edit these
 const EVENT_CITY = "Peshawar";
-const EVENT_DATE = "February 5, 2026";
+const EVENT_DATE = "June 18, 2026";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://v0peshawar.vercel.app";
 
 // Decryption helper for metadata generation

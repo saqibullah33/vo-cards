@@ -15,7 +15,7 @@ export default function CallToAction() {
                         speedSegment={0.3}
                         as="h2"
                         className="text-balance text-4xl font-semibold lg:text-5xl">
-                        Don't miss a spot!
+                        Ready to Build?
                     </TextEffect>
                     <TextEffect
                         triggerOnView
@@ -24,7 +24,7 @@ export default function CallToAction() {
                         delay={0.3}
                         as="p"
                         className="mt-4 text-muted-foreground">
-                        We have limited availability, register now in the link below.
+                        Spots are limited to 70 developers. Register for free and join us on June 18 in Peshawar.
                     </TextEffect>
                     <AnimatedGroup
                         triggerOnView

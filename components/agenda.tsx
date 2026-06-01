@@ -36,32 +36,52 @@ export default function Agenda() {
                     >
                         <div className="pb-6">
                             <div className="font-medium space-x-2">
-                                <span className='text-muted-foreground font-mono '>11:00</span>
-                                <span>Welcome Video</span>
+                                <span className='text-muted-foreground font-mono'>10:00</span>
+                                <span>Doors Open</span>
                             </div>
-                            <p className="text-muted-foreground mt-4">A special welcome from the v0 Team</p>
+                            <p className="text-muted-foreground mt-4">Check in, get settled, and meet fellow developers. Breakfast provided.</p>
                         </div>
                         <div className="py-6">
                             <div className="font-medium space-x-2">
-                                <span className='text-muted-foreground font-mono '>11:30</span>
-                                <span>Build Time!</span>
+                                <span className='text-muted-foreground font-mono'>10:30</span>
+                                <span>Learn</span>
                             </div>
-                            <p className="text-muted-foreground mt-4">Hands on to build your project with v0.</p>
+                            <p className="text-muted-foreground mt-4">Hands-on intro to Vercel v0, Clerk, and Supabase. Understand modern development patterns.</p>
                         </div>
                         <div className="py-6">
                             <div className="font-medium space-x-2">
-                                <span className='text-muted-foreground font-mono '>13:00</span>
-                                <span>Showcase Sprint</span>
+                                <span className='text-muted-foreground font-mono'>11:30</span>
+                                <span>Build Time</span>
                             </div>
-                            <p className="text-muted-foreground mt-4">Show a quick presentation of what you built.</p>
+                            <p className="text-muted-foreground mt-4">Build your real application from scratch with authentication and data storage.</p>
                         </div>
                         <div className="py-6">
                             <div className="font-medium space-x-2">
-                                <span className='text-muted-foreground font-mono '>13:30</span>
-                                <span>Networking and Event Close</span>
+                                <span className='text-muted-foreground font-mono'>13:00</span>
+                                <span>Lunch Break</span>
                             </div>
-                            <p className="text-muted-foreground mt-4">Take some time to interact with other and share
-                                ideas.</p>
+                            <p className="text-muted-foreground mt-4">Lunch provided. Recharge and share ideas with other builders.</p>
+                        </div>
+                        <div className="py-6">
+                            <div className="font-medium space-x-2">
+                                <span className='text-muted-foreground font-mono'>14:00</span>
+                                <span>Deploy & Ship</span>
+                            </div>
+                            <p className="text-muted-foreground mt-4">Push your project to production on Vercel. Walk away with a live URL to share.</p>
+                        </div>
+                        <div className="py-6">
+                            <div className="font-medium space-x-2">
+                                <span className='text-muted-foreground font-mono'>17:00</span>
+                                <span>Showcase & Prizes</span>
+                            </div>
+                            <p className="text-muted-foreground mt-4">Demo what you built. Community votes for most creative, best UI, and fastest ship.</p>
+                        </div>
+                        <div className="py-6">
+                            <div className="font-medium space-x-2">
+                                <span className='text-muted-foreground font-mono'>18:00</span>
+                                <span>Networking & Close</span>
+                            </div>
+                            <p className="text-muted-foreground mt-4">Connect with the community, collect your swag and v0 credits, and wrap up the day.</p>
                         </div>
                     </AnimatedGroup>
                 </div>

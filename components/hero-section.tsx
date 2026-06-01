@@ -22,7 +22,7 @@ export default function HeroSection() {
                         <div className="mx-auto max-w-2xl text-center lg:ml-0 lg:text-left">
                             <div className='mt-8 lg:mt-16'>
                                 <DecryptedText
-                                    text="Thursday February 5th, 2026 - Peshawar"
+                                    text="Thursday June 18th, 2026 - Peshawar"
                                     animateOn="view"
                                     revealDirection="start"
                                     sequential
@@ -36,14 +36,14 @@ export default function HeroSection() {
                                 speedSegment={0.3}
                                 as="h1"
                                 className="max-w-2xl text-balance text-6xl font-medium md:text-7xl xl:text-8xl">
-                                Prompt
+                                Build Something
                             </TextEffect>
                             <TextEffect
                                 preset="fade-in-blur"
                                 speedSegment={0.3}
                                 as="h1"
                                 className="max-w-2xl text-balance text-6xl font-medium md:text-7xl xl:text-8xl">
-                                to Production
+                                Real In One Day
                             </TextEffect>
                             <TextEffect
                                 per="line"
@@ -52,8 +52,7 @@ export default function HeroSection() {
                                 delay={0.5}
                                 as="p"
                                 className="mt-8 max-w-2xl text-pretty text-lg text-muted-foreground bg-black p-1 rounded-md">
-                                v0 is getting ready to launch its biggest product update yet. We're celebrating with
-                                v0 IRLs around the world.
+                                Join 70 developers for a hands-on workshop where you&apos;ll build, deploy, and ship a real project in a single day using Vercel v0, Clerk, and Supabase. No experience required.
                             </TextEffect>
                             <AnimatedGroup
                                 variants={{
@@ -127,6 +126,12 @@ export default function HeroSection() {
                                 <div className="flex items-center">
                                     <VercelWordmarkIcon size={20} aria-label="Vercel Logo"
                                                         className='text-foreground mx-auto'/>
+                                </div>
+                                <div className="flex items-center">
+                                    <span className="text-sm font-semibold font-mono">Clerk</span>
+                                </div>
+                                <div className="flex items-center">
+                                    <span className="text-sm font-semibold font-mono">Supabase</span>
                                 </div>
                             </InfiniteSlider>
                             <div
