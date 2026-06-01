@@ -90,7 +90,7 @@ const CardTemplate = forwardRef<CardTemplateRef, CardTemplateProps>(
         dateRender.textBaseline = "middle";
 
         const dateTextX = (CANVAS_SIZE / 2) - 55;
-        const dateTextY = CANVAS_SIZE - 1170;
+        const dateTextY = CANVAS_SIZE - 1100;
         dateRender.fillText(date.toUpperCase(), dateTextX, dateTextY);
       }
 
@@ -159,7 +159,7 @@ const CardTemplate = forwardRef<CardTemplateRef, CardTemplateProps>(
         dateRender.textBaseline = "middle";
 
         const dateTextX = (CANVAS_SIZE / 2) - 55;
-        const dateTextY = CANVAS_SIZE - 1170;
+        const dateTextY = CANVAS_SIZE - 1100;
         dateRender.fillText(date.toUpperCase(), dateTextX, dateTextY);
       }
 
